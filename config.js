@@ -17,8 +17,8 @@ module.exports = {
     twitter: 'gabrielfeear',
     medium: '@gabrielaraujof',
     facebook: '',
-    github: '',
-    linkedin: '',
+    github: 'gabrielaraujof',
+    linkedin: 'gabrielaraujof',
     instagram: '',
   },
 }
