@@ -94,7 +94,7 @@ Agora vamos testar o nosso projeto e verificar se está tudo funcionando correta
 ng serve
 ```
 
-Acesse a aplicação em [http://localhost:5100](http://localhost:5100) e, se tudo estiver funcionando como o esperado, a página exibida será similar ao seguinte:
+Acesse a aplicação em [https://localhost:5100](https://localhost:5100) e, se tudo estiver funcionando como o esperado, a página exibida será similar ao seguinte:
 
 ![](./asset-2.png)
 

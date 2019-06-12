@@ -7,14 +7,14 @@ categories:
   - Programming
 
 published: true
-canonical_link: http://gabrielaraujof.github.io/programming/python-get-started/
+canonical_link: https://gabrielaraujof.github.io/programming/python-get-started/
 redirect_from:
   - /python-beginner-7c1615e19960
 ---
 
 > Porque você deveria aprender Python?
 
-A resposta é relativamente simples, como foi detalhado [num artigo da readwrite](http://readwrite.com/2014/07/08/what-makes-python-easy-to-learn). Desde 2008 Python é classificada como uma das oito linguagens de programação mais populares do mundo. Muito disso é devido a ampla adoção do Python por grandes empresas de tecnologia como o Google, Yahoo e NASA. Mas não é só o mercado que indica e impulsiona tal popularidade. Oito das dez melhores faculdades de computação dos Estados Unidos atualmente ensinam Python nas disciplinas de introdução a programação. Isso porque a curva de aprendizado da linguagem é mínima se comparada com a maioria das linguagens.
+A resposta é relativamente simples, como foi detalhado [num artigo da readwrite](https://readwrite.com/2014/07/08/what-makes-python-easy-to-learn). Desde 2008 Python é classificada como uma das oito linguagens de programação mais populares do mundo. Muito disso é devido a ampla adoção do Python por grandes empresas de tecnologia como o Google, Yahoo e NASA. Mas não é só o mercado que indica e impulsiona tal popularidade. Oito das dez melhores faculdades de computação dos Estados Unidos atualmente ensinam Python nas disciplinas de introdução a programação. Isso porque a curva de aprendizado da linguagem é mínima se comparada com a maioria das linguagens.
 
 Além disso, temos uma outra razão: _a configuração necessária para você começar a programar em Python em qualquer computador é_ **_muito_** _simples_. Então chega de conversa e vamos ao que interessa!
 
@@ -24,7 +24,7 @@ Além disso, temos uma outra razão: _a configuração necessária para você co
 
 #### Linux
 
-A maioria dos sistemas GNU/Linux já vem com o Python pré-instalado, então você não tem absolutamente **nada a fazer** neste quesito — que maravilha! Entretanto, algumas distros trazem apenas a versão 2.x do Python. Se você prefere a versão 3.x você precisará instalá-la, mas isto é bastante simples. (_Eu fortemente recomendo utilizar a versão 3. A versão 2 será descontinuada em_ [_breve_](http://pythonclock.org/)_._)
+A maioria dos sistemas GNU/Linux já vem com o Python pré-instalado, então você não tem absolutamente **nada a fazer** neste quesito — que maravilha! Entretanto, algumas distros trazem apenas a versão 2.x do Python. Se você prefere a versão 3.x você precisará instalá-la, mas isto é bastante simples. (_Eu fortemente recomendo utilizar a versão 3. A versão 2 será descontinuada em_ [_breve_](https://pythonclock.org/)_._)
 
 _Nota: Este passo-a-passo é baseado em uma distribuição derivada do Debian. Para outras distribuições você precisará compilar o Python antes de instalá-lo._
 
@@ -93,4 +93,4 @@ Olá, mundo!
 
 ---
 
-_Originally published at_ [_gabrielaraujof.github.io_](http://gabrielaraujof.github.io/programming/python-get-started/) _on March 21, 2015._
+_Originally published at_ [_gabrielaraujof.github.io_](https://gabrielaraujof.github.io/programming/python-get-started/) _on March 21, 2015._

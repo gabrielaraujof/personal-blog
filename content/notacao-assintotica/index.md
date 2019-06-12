@@ -48,7 +48,7 @@ Em particular aos algoritmos, a notação _Big-O_ é muito utilizada para descre
 
 O termo **melhor caso** se refere ao comportamento do algoritmo sob condições ótimas. Por exemplo: para um algoritmo de ordenação, a condição ótima seria um array de entrada já ordenado. De maneira análoga, o termo **pior caso** se refere as condições extremas de execução do algoritmo, que no exemplo anterior poderia ser um array em ordem decrescente. Já para o **caso médio**, como o próprio nome indica, trivialmente descrevemos uma média da função analisada sob todos os possíveis cenários.
 
-O algoritmo de ordenação **_Insertion sort_**, ou _ordenação por inserção_, tem um tempo de execução no pior caso $O(n^2)$, ou seja, no pior cenário possível o tempo de execução do algoritmo será uma função $an^2 + bn + c$, sendo $n$ o tamanho do array de entrada. Essas análises podem ser utilizadas na comparação de performance dos algoritmos, ou até para escolhermos aquele que mais se adequa a nossa situação. Uma ótima referência é o site [**Big-O Cheat Sheet**](http://bigocheatsheet.com/ "Big-O Cheat Sheet"), que traz as complexidades dos algoritmos e estruturas de dados mais comuns descritos com a notação _Big-O_.
+O algoritmo de ordenação **_Insertion sort_**, ou _ordenação por inserção_, tem um tempo de execução no pior caso $O(n^2)$, ou seja, no pior cenário possível o tempo de execução do algoritmo será uma função $an^2 + bn + c$, sendo $n$ o tamanho do array de entrada. Essas análises podem ser utilizadas na comparação de performance dos algoritmos, ou até para escolhermos aquele que mais se adequa a nossa situação. Uma ótima referência é o site [**Big-O Cheat Sheet**](https://bigocheatsheet.com/ "Big-O Cheat Sheet"), que traz as complexidades dos algoritmos e estruturas de dados mais comuns descritos com a notação _Big-O_.
 
 Em outro artigo, falaremos um pouco mais sobre as complexidades de tempo e espaço.
 
@@ -60,4 +60,4 @@ Em outro artigo, falaremos um pouco mais sobre as complexidades de tempo e espa�
 
 ---
 
-_Originally published at_ [_gabrielaraujof.github.io_](http://gabrielaraujof.github.io/algorithm-analysis/notacao-assintotica/) _on March 16, 2015._
+_Originally published at_ [_gabrielaraujof.github.io_](https://gabrielaraujof.github.io/algorithm-analysis/notacao-assintotica/) _on March 16, 2015._

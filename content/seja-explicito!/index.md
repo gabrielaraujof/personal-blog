@@ -56,7 +56,7 @@ _Mas cuidado! Sua variável pode ser constante mas o objeto que ela referencia_ 
 
 <Embed src="https://gist.github.com/gabrielaraujof/0c13b6c64da5c7ed4253e1eab7d34e0e.js" aspectRatio={0.357} caption="Declarações com const vs imutabilidade" />
 
-Caso você realmente precise de um objeto imutável você tem algumas outras opções como o [Object.freeze()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze), [immutable.js](https://facebook.github.io/immutable-js/), [mori](http://swannodette.github.io/mori/).
+Caso você realmente precise de um objeto imutável você tem algumas outras opções como o [Object.freeze()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze), [immutable.js](https://facebook.github.io/immutable-js/), [mori](https://swannodette.github.io/mori/).
 
 ### let vs const
 
@@ -73,7 +73,7 @@ _When developing software, most of our time is spent reading code. ES6 offers le
 -   **Raramente** use `**let**` (quando estritamente necessário);
 -   **Nunca** use `**var**`;
 
-E se você está achando que vai ser difícil lembrar ou se disciplinar a isto, eu tenho uma ótima notícia: _linters!_ ([eslint](https://eslint.org/), [tslint](https://palantir.github.io/tslint/), [jshint](http://jshint.com/), [jslint](http://www.jslint.com/), etc). Eles irão lembrar por você e garantir que você não cometa nenhuma atrocidade com a legibilidade. Os leitores do seu código irão te agradecer por isso — incluindo você.
+E se você está achando que vai ser difícil lembrar ou se disciplinar a isto, eu tenho uma ótima notícia: _linters!_ ([eslint](https://eslint.org/), [tslint](https://palantir.github.io/tslint/), [jshint](https://jshint.com/), [jslint](https://www.jslint.com/), etc). Eles irão lembrar por você e garantir que você não cometa nenhuma atrocidade com a legibilidade. Os leitores do seu código irão te agradecer por isso — incluindo você.
 
 ---
 
@@ -92,4 +92,4 @@ _New JavaScript developers often have a hard time understanding the unique behav
 _Welcome to Part I of Learn ES6 The Dope Way, a series created to help you easily understand ES6 (ECMAScript 6)!_medium.freecodecamp.org](https://medium.freecodecamp.org/learn-es6-the-dope-way-i-const-let-var-ae828580472b "https://medium.freecodecamp.org/learn-es6-the-dope-way-i-const-let-var-ae828580472b")[](https://medium.freecodecamp.org/learn-es6-the-dope-way-i-const-let-var-ae828580472b)
 
 -   [https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/](https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/)
--   [http://wesbos.com/let-vs-const/](http://wesbos.com/let-vs-const/)
+-   [https://wesbos.com/let-vs-const/](https://wesbos.com/let-vs-const/)
