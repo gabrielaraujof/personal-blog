@@ -9,9 +9,9 @@ module.exports = {
   // a longer bio showing on the landing page of the blog
   bio: `Full-stack web developer, pythonist, javascript enthusiast, and early adopter.`,
   author: 'Gabriel Araujo',
-  githubUrl: 'https://github.com/',
+  githubUrl: 'https://github.com/gabrielaraujof',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'https://gabrielaraujo.dev',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'gabrielfeear',
