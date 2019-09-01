@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 import Section from '../components/section'
 import Pills from '../components/pills'
 import MainBio from '../components/main-bio'
+import GlobalStyles from '../styles/global'
 import { formatPostDate, formatReadingTime } from '../utils/dates'
 
 import './blog-listing.css'
@@ -13,6 +14,7 @@ import './blog-listing.css'
 const BlogIndexPage = ({ data: { allMdx } }) => (
   <Layout>
     <SEO />
+    <GlobalStyles />
     <Section centered>
       <MainBio />
     </Section>

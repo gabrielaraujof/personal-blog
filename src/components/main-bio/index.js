@@ -1,17 +1,8 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Image from 'gatsby-image'
 
-import './main-bio.css'
-
-const socialURLs = {
-  twitter: 'https://twitter.com',
-  github: 'https://github.com',
-  facebook: 'https://facebook.com',
-  medium: 'https://medium.com',
-  linkedin: 'https://linkedin.com/in',
-  instagram: 'https://instagram.com',
-}
+import Avatar from '../avatar'
+import * as S from './styled'
 
 const socialIcons = {
   twitter: (
@@ -46,6 +37,15 @@ const socialIcons = {
   ),
 }
 
+const socialBaseURLs = {
+  twitter: 'https://twitter.com',
+  github: 'https://github.com',
+  facebook: 'https://facebook.com',
+  medium: 'https://medium.com',
+  linkedin: 'https://linkedin.com/in',
+  instagram: 'https://instagram.com',
+}
+
 function Bio() {
   const { site, avatar } = useStaticQuery(
     graphql`
@@ -53,11 +53,7 @@ function Bio() {
         avatar: file(absolutePath: { regex: "/avatar.jpg/" }) {
           childImageSharp {
             fixed(width: 150, height: 150, quality: 90) {
-              base64
-              width
-              height
-              src
-              srcSet
+              ...GatsbyImageSharpFixed
             }
           }
         }
@@ -81,47 +77,27 @@ function Bio() {
 
   const { author, social, bio } = site.siteMetadata
 
+  const socialProfileURL = s => `${socialBaseURLs[s]}/${social[s]}`
+
+  const socialLinks = Object.keys(social)
+    .filter(s => social[s])
+    .map(s => (
+      <S.SocialLink key={s}>
+        <a aria-label={`${s} profile`} href={socialProfileURL(s)}>
+          {socialIcons[s]}
+        </a>
+      </S.SocialLink>
+    ))
+
   return (
-    <div
-      className="main-bio-container"
-      style={{
-        marginBottom: '4.375rem',
-      }}
-    >
-      <div className="main-bio">
-        <h1 style={{ marginBottom: '0.875rem' }}>{author}</h1>
-        <ul className="horizontal-links" style={{ marginBottom: '0.875rem' }}>
-          {Object.keys(social).map(s =>
-            social[s] ? (
-              <li key={s}>
-                <a
-                  aria-label={`${s} profile`}
-                  className="u-no-box-shadow"
-                  href={`${socialURLs[s]}/${social[s]}`}
-                >
-                  {socialIcons[s]}
-                </a>
-              </li>
-            ) : null
-          )}
-        </ul>
+    <S.BioWrapper>
+      <S.BioInfo>
+        <S.BioTitle>{author}</S.BioTitle>
+        <S.BioSocialLinks>{socialLinks}</S.BioSocialLinks>
         <p>{bio}</p>
-      </div>
-      <Image
-        className="avatar"
-        fixed={avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginBottom: 0,
-          minWidth: 150,
-          borderRadius: '100%',
-          border: '8px solid lavender',
-        }}
-        imgStyle={{
-          borderRadius: '50%',
-        }}
-      />
-    </div>
+      </S.BioInfo>
+      <Avatar fixed={avatar.childImageSharp.fixed} alt={author} />
+    </S.BioWrapper>
   )
 }
 

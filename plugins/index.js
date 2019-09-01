@@ -7,6 +7,7 @@ module.exports = [
   'gatsby-plugin-netlify',
   'gatsby-plugin-react-helmet',
   'gatsby-plugin-sharp',
+  'gatsby-plugin-styled-components',
   'gatsby-transformer-sharp',
   feed,
   manifest,
