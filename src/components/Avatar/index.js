@@ -6,5 +6,9 @@ const Avatar = styled(Image)`
   border: ${({ small }) => (small ? 'none' : '0.8rem solid lavender')};
   border-radius: 100%;
   min-width: ${({ small }) => (small ? 5 : 15)}rem;
+
+  img {
+    border-radius: 50%;
+  }
 `
 export default Avatar

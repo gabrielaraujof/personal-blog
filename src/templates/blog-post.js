@@ -4,7 +4,7 @@ import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
 import SEO from '../components/seo'
 import Pills from '../components/pills'
-import Bio from '../components/bio'
+import Signature from '../components/signature'
 import Embed from '../components/embed'
 import { formatPostDate, formatReadingTime } from '../utils/dates'
 
@@ -72,7 +72,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
               margin: `24px 0`,
             }}
           />
-          <Bio />
+          <Signature />
           <ul
             style={{
               display: `flex`,

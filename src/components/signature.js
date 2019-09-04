@@ -1,8 +1,8 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Image from 'gatsby-image'
+import Avatar from './Avatar'
 
-function Bio() {
+function Signature() {
   const { site, avatar } = useStaticQuery(
     graphql`
       query BioQuery {
@@ -39,19 +39,7 @@ function Bio() {
         marginBottom: '4.375rem',
       }}
     >
-      <Image
-        fixed={avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: '0.875rem',
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: '100%',
-        }}
-        imgStyle={{
-          borderRadius: '50%',
-        }}
-      />
+      <Avatar fixed={avatar.childImageSharp.fixed} alt={author} small />
       <p style={{ margin: 0 }}>
         Written by <strong>{author}</strong>
         {shortBio ? ` ${shortBio}` : ''}.{` `}
@@ -65,4 +53,4 @@ function Bio() {
   )
 }
 
-export default Bio
+export default Signature
