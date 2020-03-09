@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-mdx',
+      resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.md', '.mdx'],
         gatsbyRemarkPlugins: [
@@ -108,6 +108,7 @@ module.exports = {
             }
           `,
             output: `rss.xml`,
+            title: "Gabriel Araujo blog's RSS Feed",
           },
         ],
       },
