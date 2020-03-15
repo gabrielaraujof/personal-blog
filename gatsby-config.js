@@ -57,13 +57,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gabriel Araujo',
-        short_name: 'Gabriel Araujo',
+        name: 'Gabriel Araujo\'s blog',
+        short_name: 'Gabriel\'s blog',
         start_url: '/',
         background_color: '#F1F3F4',
         theme_color: '#79BAC1',
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
+
       },
     },
     {
