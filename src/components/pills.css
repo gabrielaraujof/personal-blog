@@ -6,8 +6,8 @@
   height: 2.5rem;
   margin: 0.2rem;
   border-radius: 1.2rem;
-  background-color: lavender;
-  color: rgba(0, 0, 0, 0.84);
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
 }
 .pill:not(:first-child) {
   margin-left: 0;

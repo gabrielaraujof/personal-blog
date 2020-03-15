@@ -111,12 +111,6 @@ function Bio() {
         className="avatar"
         fixed={avatar.childImageSharp.fixed}
         alt={author}
-        style={{
-          marginBottom: 0,
-          minWidth: 150,
-          borderRadius: '100%',
-          border: '8px solid lavender',
-        }}
         imgStyle={{
           borderRadius: '50%',
         }}
