@@ -4,9 +4,8 @@ title: Python? Mas por onde começo?
 slug: python-mas-por-onde-comeco
 draft: false
 date: 2015-03-21T16:00:45.297Z
-description: A resposta é relativamente simples, como foi detalhado num artigo
-  da readwrite. Desde 2008 Python é classificada como uma das oito linguagens de
-  programação mais populares do mundo. Muito disso é…
+description: "Python é considerada uma das linguagens mais fáceis de aprender.
+  Veja como é fácil começar no mundo da programação. "
 category: Programming
 tags:
   - python
