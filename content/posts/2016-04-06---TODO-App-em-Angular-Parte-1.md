@@ -6,7 +6,7 @@ draft: false
 date: 2016-06-04T13:58:47.524Z
 description: "Nova versão do Angular já está disponível.
   Dê os primeiros passos e crie seu primeiro app."
-categories: Programming
+category: Programming
 tags:
   - angular
   - typescript
