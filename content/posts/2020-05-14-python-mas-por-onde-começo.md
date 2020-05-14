@@ -2,7 +2,7 @@
 template: post
 title: Python? Mas por onde começo?
 slug: python-mas-por-onde-comeco
-draft: true
+draft: false
 date: 2015-03-21T16:00:45.297Z
 description: A resposta é relativamente simples, como foi detalhado num artigo
   da readwrite. Desde 2008 Python é classificada como uma das oito linguagens de
