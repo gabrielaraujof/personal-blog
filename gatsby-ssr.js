@@ -1,4 +1,3 @@
-import { wrapRootElement as wrap } from './src/components/wrap-root-element'
+'use strict';
 
-// eslint-disable-next-line import/prefer-default-export
-export const wrapRootElement = wrap
+exports.onRenderBody = require('./gatsby/on-render-body.js');

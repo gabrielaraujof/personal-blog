@@ -1,7 +1,4 @@
-// prism theme
-import './static/prism-theme.css'
-import './static/global.css'
-import { wrapRootElement as wrap } from './src/components/wrap-root-element'
+'use strict';
 
-// eslint-disable-next-line import/prefer-default-export
-export const wrapRootElement = wrap
+require('./src/assets/scss/init.scss');
+require('./static/css/prismjs/theme.min.css');
