@@ -1,47 +1,47 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://gabrielaraujo.dev',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Blog do Gabriel Araujo',
+  subtitle: 'Desenvolvedor Web, fã de basquete, entusiasta DIY, e ex-professor.',
+  copyright: '2020 © Gabriel Araujo.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 10,
+  googleAnalyticsId: 'UA-50425694-1',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Artigos',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Sobre',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contato',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Gabriel Araujo',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Desenvolvedor Web, fã de basquete, entusiasta DIY, e ex-professor.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'contato@gabrielaraujo.dev',
+      facebook: '',
+      telegram: 'gabrielaraujof',
+      twitter: 'gabrielfeear',
+      github: 'gabrielaraujof',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'gabrielaraujof',
+      instagram: 'gabrielaraujof',
       line: '',
-      gitlab: '',
+      gitlab: 'gabrielaraujof',
       weibo: '',
-      codepen: '',
+      codepen: 'gabrielaraujof',
       youtube: '',
       soundcloud: '',
     }
