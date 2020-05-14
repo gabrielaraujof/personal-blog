@@ -26,7 +26,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run lint
-    - run: npm run test:coverage --runInBand --no-cache
     - run: npm run test --runInBand --no-cache
       env:
         CI: true
