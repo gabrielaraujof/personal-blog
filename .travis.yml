@@ -1,20 +1,14 @@
 language: node_js
 node_js:
   - '12'
-
+install:
+  - npm install -g codecov
+script:
+  - npm install
+  - npm run lint
+  - npm run test:coverage --runInBand --no-cache
+  - npm run test --runInBand --no-cache
+  - codecov
 cache:
   directories:
     - node_modules
-
-notifications:
-  email: false
-
-jobs:
-  include:
-    - stage: Test
-      install: npm ci
-      script: npm run test
-    - stage: Lighthouse
-      if: type = pull_request
-      install: npm ci
-      script: ./node_modules/.bin/lighthousebot --perf 90 --pwa 90 --a11y 90 --bp 90 --seo 90 "$(wait-for-netlify-preview)"
