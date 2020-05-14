@@ -18,7 +18,7 @@ A resposta é relativamente simples, como foi detalhado [num artigo da readwrite
 
 Além disso, temos uma outra razão: _a configuração necessária para você começar a programar em Python em qualquer computador é_ **_muito_** _simples_. Então chega de conversa e vamos ao que interessa!
 
-![fonte: [https://www.python.org/community/logos/](https://www.python.org/community/logos/)](./asset-1.png)
+![fonte: [https://www.python.org/community/logos/](https://www.python.org/community/logos/)](/media/asset-1.png)
 
 ### Instalando o Python
 
