@@ -4,7 +4,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
 <div
   className="layout"
 >
-  <div
+  <aside
     className="sidebar"
   >
     <div
@@ -224,8 +224,8 @@ exports[`CategoryTemplate renders correctly 1`] = `
         Test copyright
       </div>
     </div>
-  </div>
-  <div
+  </aside>
+  <main
     className="page"
   >
     <div
@@ -284,6 +284,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
               test_0
             </p>
             <a
+              aria-label="Read article test_0"
               className="feed__item-readmore"
               href="/test_0"
             >
@@ -332,6 +333,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
               test_1
             </p>
             <a
+              aria-label="Read article test_1"
               className="feed__item-readmore"
               href="/test_1"
             >
@@ -367,6 +369,6 @@ exports[`CategoryTemplate renders correctly 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

@@ -4,7 +4,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
 <div
   className="layout"
 >
-  <div
+  <aside
     className="sidebar"
   >
     <div
@@ -224,8 +224,8 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         Test copyright
       </div>
     </div>
-  </div>
-  <div
+  </aside>
+  <main
     className="page"
   >
     <div
@@ -263,6 +263,6 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         </ul>
       </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sidebar renders correctly 1`] = `
-<div
+<aside
   className="sidebar"
 >
   <div
@@ -221,5 +221,5 @@ exports[`Sidebar renders correctly 1`] = `
       Test copyright
     </div>
   </div>
-</div>
+</aside>
 `;

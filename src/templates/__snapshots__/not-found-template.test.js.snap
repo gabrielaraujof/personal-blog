@@ -4,7 +4,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
 <div
   className="layout"
 >
-  <div
+  <aside
     className="sidebar"
   >
     <div
@@ -224,8 +224,8 @@ exports[`NotFoundTemplate renders correctly 1`] = `
         Test copyright
       </div>
     </div>
-  </div>
-  <div
+  </aside>
+  <main
     className="page"
   >
     <div
@@ -244,6 +244,6 @@ exports[`NotFoundTemplate renders correctly 1`] = `
         </p>
       </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

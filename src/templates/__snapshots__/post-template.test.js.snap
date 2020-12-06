@@ -4,7 +4,7 @@ exports[`PostTemplate renders correctly 1`] = `
 <div
   className="layout"
 >
-  <div
+  <article
     className="post"
   >
     <a
@@ -34,7 +34,7 @@ exports[`PostTemplate renders correctly 1`] = `
         />
       </div>
     </div>
-    <div
+    <footer
       className="post__footer"
     >
       <div
@@ -95,10 +95,10 @@ exports[`PostTemplate renders correctly 1`] = `
           </a>
         </p>
       </div>
-    </div>
-    <div
+    </footer>
+    <section
       className="post__comments"
     />
-  </div>
+  </article>
 </div>
 `;
