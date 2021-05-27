@@ -29,13 +29,13 @@ _Nota: Este passo-a-passo é baseado em uma distribuição derivada do Debian. P
 
 Abra o terminal e execute os seguinte comando:
 
-```console
+```shell
 $ sudo apt-get update && sudo apt-get install python3
 ```
 
 **Pronto, você já tem o Python 3 instalado e pronto para usar!** No mesmo terminal execute o comando python3 e você entrará no modo interativo do Python. Você verá algo como:
 
-```console
+```shell
 $ python3
 Python 3.4.0 (default, Apr 11 2014, 13:05:11) [GCC 4.8.2] on linux Type “help”, “copyright”, “credits” or “license” for more information.
 >>>
@@ -51,7 +51,7 @@ Em seguida, duplo clique no arquivo **.pkg** baixado para iniciar a instalação
 
 **Pronto, o Python 3 já está pronto para usar no seu Mac!** Navegue até _Aplicações > Utilitários_ e execute o Terminal. Na tela do terminal, execute o comando python3 que levará você ao modo interativo do Python, de onde vocẽ já poderá executar seus comandos. Você verá algo semelhante a isto:
 
-```console
+```shell
 $ python3
 Python 3.4.1 (default, Apr 11 2014, 13:05:11) [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin Type “help”, “copyright”, “credits” or “license” for more information.
 >>>
@@ -67,7 +67,7 @@ _Nota: Escolha o instalador apropriado para a arquitetura do seu Windows: x86 (3
 
 Duplo clique no instalador baixado para iniciar a instalação. Siga as instruções e aguarde a finalização do processo de instalação. **Pronto, seu Windows já tem o Python instalado!** _Importante_: se você estiver instalando a versão 2.x do Python, é bem provável que você precise configurar as variáveis de ambiente. No caso da versão 3.x, o instalador já realiza esta etapa automaticamente. Uma vez instalado, você já pode se divertir programando em Python. Basta executar o prompt de comando e entrar no modo interativo.
 
-```console
+```shell
 C:\Users\Gabriel Araujo> python
 Python 3.4.2 (v3.4.2:ab2c023a9432, Apr 11 2014, 13:05:11) [MSC v.1600 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -79,7 +79,7 @@ Python 3.4.2 (v3.4.2:ab2c023a9432, Apr 11 2014, 13:05:11) [MSC v.1600 64 bit (AM
 
 O modo interativo é útil, por exemplo, para você fazer “testes rápidos” com alguns comandos — sabe aquele momento que você não lembra de uma sintaxe ou não sabe se ela vai realmente funcionar? Então, execute no modo interativo apenas este pedaço de código e você tem uma resposta imediata. Como no seguinte exemplo:
 
-```console
+```shell
 >>> print 'Olá, mundo!'
   File "<stdin>", line 1
     print 'Olá, mundo!'

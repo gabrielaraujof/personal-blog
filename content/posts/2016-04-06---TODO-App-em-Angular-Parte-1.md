@@ -31,13 +31,13 @@ Um dos principais esforços nessa nova versão do framework é facilitar ainda m
 
 E nada mais. Sim! O node é a única dependência que você vai precisar se preocupar em instalar. Todas as outras dependências básicas do projeto serão gerenciadas pelo npm—aliás, a Angular CLI faz o “trabalho sujo” e instala todas elas pra você na criação do projeto. Então chega de conversa e vamos criar nosso projeto. Mas antes, instalamos a Angular CLI:
 
-```
+```shell
 npm install -g angular-cli
 ```
 
 Com a CLI em mãos, podemos criar nosso primeiro projeto utilizando seu comando **_new_**_:_
 
-```
+```shell
 ng new todo-ng2
 ```
 
@@ -47,7 +47,7 @@ Será criado um diretório chamado _todo-ng2_, e dentro dele uma estrutura inici
 
 A estrutura criada para o projeto deverá ser similar ao seguinte:
 
-```
+```shell
 todo-ng2/
 |- e2e/
 |- src/
@@ -91,7 +91,7 @@ A estrutura de pastas e arquivos gerada pela Angular CLI segue o [Angular 2 Styl
 
 Agora vamos testar o nosso projeto e verificar se está tudo funcionando corretamente. Para isso utilizamos o comando **_serve_** da Angular CLI:
 
-```
+```shell
 ng serve
 ```
 

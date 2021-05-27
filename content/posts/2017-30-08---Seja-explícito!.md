@@ -17,11 +17,11 @@ tags:
 
 ## Aumente a legibilidade do seu javascript com const e let.
 
-Uma das novidades da versão ES6 do javascript (ou ES2015 — pra você que torceu o nariz) foi a inserção do `let` e `const` no reinado solitário do `var` na declaração de variáveis. Apesar de não ser algo recente, muitos desenvolvedores ainda utilizam o velho conhecido por inúmeras razões. Mas existem algumas boas justificativas para que o uso do `var` fique apenas no passado.
+Uma das novidades da versão ES6 do javascript (ou ES2015 — pra você que torceu o nariz) foi a inserção do `javascript›let` e `javascript›const` no reinado solitário do `javascript›var` na declaração de variáveis. Apesar de não ser algo recente, muitos desenvolvedores ainda utilizam o velho conhecido por inúmeras razões. Mas existem algumas boas justificativas para que o uso do `javascript›var` fique apenas no passado.
 
 ### var e hoisting
 
-Quando usamos `var` em javascript, o escopo da variável é a função onde a mesma foi declarada (ou global, caso não tenha sido declarada dentro de nenhuma função). Isso permite que algumas coisas, não tão comum em outras linguagens, funcionem. Por exemplo:
+Quando usamos `javascript›var` em javascript, o escopo da variável é a função onde a mesma foi declarada (ou global, caso não tenha sido declarada dentro de nenhuma função). Isso permite que algumas coisas, não tão comum em outras linguagens, funcionem. Por exemplo:
 
 ```javascript
 function dummy() {
@@ -53,11 +53,11 @@ dummy();
 ```
 <figcaption>Hoisting e declarações com var</figcaption>
 
-Por muito tempo recomendou-se declarar variáveis sempre no topo da função. Felizmente, isso não é mais necessário desde o ES6 com a chegada do `let` e `const`.
+Por muito tempo recomendou-se declarar variáveis sempre no topo da função. Felizmente, isso não é mais necessário desde o ES6 com a chegada do `javascript›let` e `javascript›const`.
 
-### `let`
+### `javascript›let`
 
-Diferentemente do `var`, o uso do `let` permite que você declare variáveis com acesso apenas ao bloco, instrução ou expressão em que foram declaradas, ou seja, possui o mais conhecido escopo de bloco (_block escope_).
+Diferentemente do `javascript›var`, o uso do `javascript›let` permite que você declare variáveis com acesso apenas ao bloco, instrução ou expressão em que foram declaradas, ou seja, possui o mais conhecido escopo de bloco (_block escope_).
 
 ```javascript
 function dummy() {
@@ -72,7 +72,7 @@ function dummy() {
 ```
 <figcaption>let e escopo de bloco</figcaption>
 
-Apesar de não ser possível acessar a variável fora do escopo em que foi declarada, isso não quer dizer que não existe _hoisting_ com o `let`. [Existe](https://stackoverflow.com/a/31222689/1704862). A diferença é que as variáveis não são inicializadas com `undefined`, como acontece com o `var`. Deste modo, qualquer tentativa de acesso a uma variável antes da sua declaração irá gerar um erro de referência. Este período entre o início do escopo e a execução da declaração da variável é conhecido como **_temporal dead zone_**, ou _TDZ._
+Apesar de não ser possível acessar a variável fora do escopo em que foi declarada, isso não quer dizer que não existe _hoisting_ com o `javascript›let`. [Existe](https://stackoverflow.com/a/31222689/1704862). A diferença é que as variáveis não são inicializadas com `javascript›undefined`, como acontece com o `javascript›var`. Deste modo, qualquer tentativa de acesso a uma variável antes da sua declaração irá gerar um erro de referência. Este período entre o início do escopo e a execução da declaração da variável é conhecido como **_temporal dead zone_**, ou _TDZ._
 
 ```javascript
 function dummy() {
@@ -91,7 +91,7 @@ function dummy() {
 
 ### const
 
-O `const` obedece as mesmas regras de escopo e TDZ do `let` mas com duas pequenas diferenças: você precisa a _inicializar a variável no momento da declaração_ e você _não pode reatribuir valores_ a ela — daí vem o nome “const” em que o objetivo é declarar valores constantes.
+O `javascript›const` obedece as mesmas regras de escopo e TDZ do `javascript›let` mas com duas pequenas diferenças: você precisa a _inicializar a variável no momento da declaração_ e você _não pode reatribuir valores_ a ela — daí vem o nome “const” em que o objetivo é declarar valores constantes.
 
 ```javascript
 const message;
@@ -124,18 +124,18 @@ Caso você realmente precise de um objeto imutável você tem algumas outras op�
 
 ### let vs const
 
-O propósito de uma variável deve sempre estar explícito, e por isso, devemos evitar reusar a mesma variável a menos que isto seja essencial. Deste modo, é preferível utilizar `const` ao invés de `let` já que ele nos impõe este comportamento.
+O propósito de uma variável deve sempre estar explícito, e por isso, devemos evitar reusar a mesma variável a menos que isto seja essencial. Deste modo, é preferível utilizar `javascript›const` ao invés de `javascript›let` já que ele nos impõe este comportamento.
 
-A verdade é que na ampla maioria dos casos não precisamos reutilizar variáveis. Somos tentados a fazer por facilidade. Quando você achar que precisa utilizar um `let`, desafie você mesmo e refatore. E verá que você realmente não precisava — não acredita? dê uma olhada nos exemplos do artigo abaixo.
+A verdade é que na ampla maioria dos casos não precisamos reutilizar variáveis. Somos tentados a fazer por facilidade. Quando você achar que precisa utilizar um `javascript›let`, desafie você mesmo e refatore. E verá que você realmente não precisava — não acredita? dê uma olhada nos exemplos do artigo abaixo.
 
 [**Let’s use const! Here’s why.**  
 _When developing software, most of our time is spent reading code. ES6 offers let and const as new flavors of variable…_hackernoon.com](https://hackernoon.com/lets-use-const-here-s-why-6549dcb80708 "https://hackernoon.com/lets-use-const-here-s-why-6549dcb80708")[](https://hackernoon.com/lets-use-const-here-s-why-6549dcb80708)
 
-É claro que existem casos em que a presença de um `let` é indiscutível, como o uso de contadores e acumuladores em loops, flags em algoritmos matemáticos, etc. Mas de maneira geral, recomenda-se:
+É claro que existem casos em que a presença de um `javascript›let` é indiscutível, como o uso de contadores e acumuladores em loops, flags em algoritmos matemáticos, etc. Mas de maneira geral, recomenda-se:
 
--   **Sempre** use `const`;
--   **Raramente** use `let` (quando estritamente necessário);
--   **Nunca** use `var`;
+-   **Sempre** use `javascript›const`;
+-   **Raramente** use `javascript›let` (quando estritamente necessário);
+-   **Nunca** use `javascript›var`;
 
 E se você está achando que vai ser difícil lembrar ou se disciplinar a isto, eu tenho uma ótima notícia: _linters!_ ([eslint](https://eslint.org/), [tslint](https://palantir.github.io/tslint/), [jshint](https://jshint.com/), [jslint](https://www.jslint.com/), etc). Eles irão lembrar por você e garantir que você não cometa nenhuma atrocidade com a legibilidade. Os leitores do seu código irão te agradecer por isso — incluindo você.
 
