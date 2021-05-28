@@ -1,4 +1,4 @@
-'use strict';
+import 'dracula-prism/dist/css/dracula-prism.min.css';
+import 'gatsby-code-buttons-dracula';
 
-require('./src/assets/scss/init.scss');
-require('./static/css/prismjs/theme.min.css');
+import './src/assets/scss/init.scss';

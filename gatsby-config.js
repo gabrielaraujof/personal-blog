@@ -109,6 +109,12 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-code-buttons',
+            options: {
+              toasterText: 'Copiado!',
+            }
+          },
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',
@@ -131,7 +137,10 @@ module.exports = {
           'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-prismjs',
-            options: { inlineCodeMarker: '›' }
+            options: {
+              inlineCodeMarker: '›',
+              copy: true,
+            }
           },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
