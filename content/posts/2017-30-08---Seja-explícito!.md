@@ -55,7 +55,7 @@ dummy();
 
 Por muito tempo recomendou-se declarar variáveis sempre no topo da função. Felizmente, isso não é mais necessário desde o ES6 com a chegada do `javascript›let` e `javascript›const`.
 
-### `javascript›let`
+### let
 
 Diferentemente do `javascript›var`, o uso do `javascript›let` permite que você declare variáveis com acesso apenas ao bloco, instrução ou expressão em que foram declaradas, ou seja, possui o mais conhecido escopo de bloco (_block escope_).
 
