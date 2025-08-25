@@ -1,9 +1,0 @@
-.cache/
-build/
-.node_modules/
-node_modules/
-.tmp/
-.DS_Store
-.env
-/data.db
-/.tmp
