@@ -1,0 +1,19 @@
+{
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": "Static pages (about, contact, etc.)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "slug": { "type": "uid", "targetField": "title", "required": true },
+    "template": { "type": "string" },
+    "socialImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "content": { "type": "richtext" }
+  }
+}
